@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 15px;
+	  width: 600px; 
+    }
+    button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 2px;
+      background-color: #008CBA; /* Blue */
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: white;
+      color: black;
+      border: 2px solid #008CBA;
+    }
+    #results {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      background-color: #f9f9f9;
+    }
+    #loading {
+      display: none;
+    }
+    #saveAsHTML, #saveAsTXT {
+      background-color: #4CAF50; /* Green */
+    }
+    #saveAsHTML:hover, #saveAsTXT:hover {
+      background-color: white;
+      color: black;
+      border: 2px solid #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <h4><font color="red">TECHWRECKER304 INTERVIEW AND JOB PREP KIT</font></h4>
+  <button id="interviewAdvisorButton">Prepare Interview</button>
+  <button id="trainingButton">Get Training Curriculum</button>
+  <button id="resourcesButton">Get Resources</button>
+  <div id="loading">Loading...</div>
+  <div id="results"></div>
+
+  <button id="saveAsHTML">Save as HTML</button>
+  <button id="saveAsTXT">Save as TXT</button>
+
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

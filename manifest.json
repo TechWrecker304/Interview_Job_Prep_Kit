@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Interview Preparation",
+  "version": "1.0",
+  "description": "This extension prepares interview based on a job description.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
